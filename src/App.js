@@ -14,19 +14,6 @@ function App() {
     <div className="App">
       <header className="App-header">
       <img src={bttf} alt='bttf logo' />
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code>React test.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <div className="container">
         <img src={got} className="tvshow" alt="Game of Thrones"/>
         <img src={breakbad} className="tvshow" alt="Breaking Bad"/>
