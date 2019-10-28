@@ -22,12 +22,12 @@ function App() {
           Learn React
         </a>
         <div className="container">
-        <h2 className="tvshow">Match of the Day</h2>
-        <h2 className="tvshow">Rugby Union Weekly</h2>
-        <h2 className="tvshow">NHL On The Fly</h2>
-        <h2 className="tvshow">Super Sunday</h2>
-        <h2 className="tvshow">F1 Grand Prix</h2>
-        <h2 className="tvshow">PGA Tour</h2>
+        <h2 className="tvshow">Black Mirror</h2>
+        <h2 className="tvshow">Breaking Bad</h2>
+        <h2 className="tvshow">Death Note</h2>
+        <h2 className="tvshow">Game of Thrones</h2>
+        <h2 className="tvshow">The Walking Dead</h2>
+        <h2 className="tvshow">The Wire</h2>
         </div>
       </header>
     </div>
