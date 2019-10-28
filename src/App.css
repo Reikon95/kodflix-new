@@ -34,4 +34,5 @@ img {
 .tvshow {
   flex: 1 0 25%;
   margin: 30px;
+  width: 25%;
 }
