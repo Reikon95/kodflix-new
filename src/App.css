@@ -36,3 +36,11 @@ img {
   margin: 30px;
   width: 25%;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .tvshow {
+    margin: 0;
+    width: 100%;
+  }
+}
