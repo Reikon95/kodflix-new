@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import bttf from './bttf.jpg';
 import got from './Images/GOT.jpg';
@@ -15,12 +14,42 @@ function App() {
       <header className="App-header">
       <img src={bttf} alt='bttf logo' />
         <div className="container">
-        <img src={got} className="tvshow" alt="Game of Thrones"/>
-        <img src={breakbad} className="tvshow" alt="Breaking Bad"/>
-        <img src={blackmirror} className="tvshow" alt="Black Mirror"/>
-        <img src={wire} className="tvshow" alt="The Wire"/>
-        <img src={walkingDead} className="tvshow" alt="The Walking Dead"/>
-        <img src={strange} className="tvshow" alt="Stranger Things"/>
+          <div className="tvshow">
+        <img src={got} alt="Game of Thrones"/>
+        <div className="overlay">
+          <h1>Game of Thrones</h1>
+        </div>
+        </div>
+        <div className="tvshow">
+        <img src={breakbad} alt="Breaking Bad"/>
+        <div className="overlay">
+          <h1>Breaking Bad</h1>
+        </div>
+        </div>
+        <div className="tvshow">
+        <img src={blackmirror} alt="Black Mirror"/>
+        <div className="overlay">
+          <h1>Black Mirror</h1>
+        </div>
+        </div>
+        <div className="tvshow">
+        <img src={wire} alt="The Wire"/>
+        <div className="overlay">
+          <h1>The Wire</h1>
+        </div>
+        </div>
+        <div className="tvshow">
+        <img src={walkingDead} alt="The Walking Dead"/>
+        <div className="overlay">
+          <h1>The Walking Dead</h1>
+        </div>
+        </div>
+        <div className="tvshow">
+        <img src={strange} alt="Stranger Things"/>
+        <div className="overlay">
+          <h1>Stranger Things</h1>
+        </div>
+        </div>
         </div>
       </header>
     </div>
