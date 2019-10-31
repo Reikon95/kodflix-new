@@ -7,12 +7,13 @@ import blackmirror from './Images/Black Mirror.png';
 import wire from './Images/thewire.jpg';
 import walkingDead from './Images/Walking Dead.jpg';
 import strange from './Images/strangerthings.jpg';
+import Movie from './Movie';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <img src={bttf} alt='bttf logo' />
+      <Movie image={bttf}/>
         <div className="container">
           <div className="tvshow">
         <img src={got} alt="Game of Thrones"/>
