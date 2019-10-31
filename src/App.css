@@ -26,25 +26,21 @@ img {
 }
 .container {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  align-content: flex-end;
 }
 .tvshow {
-  flex: 1 0 25%;
+  flex: 1;
   padding: 30px;
-  width: 25%;
-  /* border: 1px solid red; */
+  border: 1px solid red; 
   position: relative;
 }
 .overlay {
-  display: none;
+  transition: bottom ease 1s;
   position: absolute;
-  bottom: 0;
+  bottom: -100px;
   left: 0;
   width: 100%;
   background-color: black;
+  opacity: 0.6;
 }
 .tvshow:hover .overlay {
   display: block;
@@ -52,9 +48,8 @@ img {
 
 
 @media only screen and (max-width: 600px) {
-  .tvshow {
-    margin: 0;
-    width: 100%;
+  .container {
+    flex-direction: column;
   }
 }
 
