@@ -10,14 +10,14 @@ export default function Covers() {
     return (
         <>
          <div className="container">
-          <Media name="Game of Thrones" logo={got}/>
-          <Media name="Breaking Bad" logo={breakbad}/>
-          <Media name="Black Mirror" logo={blackmirror}/>
+          <Media id="gameOfThrones" name="Game of Thrones" logo={got}/>
+          <Media id="breakingBad" name="Breaking Bad" logo={breakbad}/>
+          <Media id="blackMirror" name="Black Mirror" logo={blackmirror}/>
         </div>
         <div className="container">
-          <Media name="The Wire" logo={wire}/>
-          <Media name="The Walking Dead" logo={walkingDead}/>
-          <Media name="Stranger Things" logo={strange}/>
+          <Media id="theWire" name="The Wire" logo={wire}/>
+          <Media id="theWalkingDead" name="The Walking Dead" logo={walkingDead}/>
+          <Media id="strangerThings" name="Stranger Things" logo={strange}/>
         </div>
         </>
     );

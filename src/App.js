@@ -11,7 +11,7 @@ function App() {
         <header className="App-header">
         </header>
         <Route exact path='/' component={Gallery}/>
-        <Route exact path='/details' component={Details}/>
+        <Route exact path='/:details' component={Details}/>
           {/* <Gallery /> */}
       </div>
     </Router>

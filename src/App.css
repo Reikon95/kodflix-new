@@ -18,7 +18,7 @@ img {
   overflow: hidden;
 }
 .overlay {
-  transition: bottom ease 2s;
+  transition: bottom ease 1s;
   position: absolute;
   bottom: -100px;
   background-color: black;
