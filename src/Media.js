@@ -5,7 +5,7 @@ export default function Media(props) {
       <Link to={`/${props.id}`} className="tvshow">
           <img src={props.logo} alt={props.name}/>
           <div className="overlay">
-                <h1>{props.name}</h1>
+                <p>{props.name}</p>
               </div>
       </Link>
     );
