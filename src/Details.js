@@ -8,6 +8,13 @@ export default class Details extends React.Component {
       welcomeMessage: 'Check back later, website under construction!'
     };
   }
+  componentDidMount() {
+    setTimeout(() => {
+      this.setState({
+        welcomeMessage: 'The best is yet to come :)'
+      });
+    }, 3000);
+  }
   render() {
     return (
       <>
