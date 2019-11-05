@@ -1,14 +1,19 @@
-import React, {component} from 'react';
-import Media from './Media';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-export default function Details() {
+export default class Details extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      welcomeMessage: 'Check back later, website under construction!'
+    };
+  }
+  render() {
     return (
-        <>
-        <div><h1>Check back later!</h1></div>
-        <Link to='/'><p>Take me back!</p></Link>
-        </>
-      );
+      <>
+      <div><h1>{this.state.welcomeMessage}</h1></div>
+      <Link to='/'><p>Take me back!</p></Link>
+      </>
+    );    
+  }
 }
