@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Redirect } from 'react-router-dom';
 import getCovers from './coversGet';
 
 export default class Details extends React.Component {
@@ -19,11 +19,14 @@ export default class Details extends React.Component {
     });
     }
   render() {
-    return (
+    if (this.state.cover === undefined) {
+      return <Redirect to='/not-found'/>;
+    }
+    else {return (
       <>
       <div><h1>{this.state.cover.name}</h1></div>
       <Link to='/'><p>Take me back!</p></Link>
       </>
-    );    
+    );}    
   }
 }
