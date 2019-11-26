@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, Redirect } from 'react-router-dom';
-import getCovers from './coversGet';
+import getCovers from '../coversGet';
+import './Details.css'
 
 export default class Details extends React.Component {
   constructor() {
@@ -23,10 +24,10 @@ export default class Details extends React.Component {
       return <Redirect to='/not-found'/>;
     }
     else {return (
-      <>
-      <div><h1>{this.state.cover.name}</h1></div>
+      <div className="Details">
+      <div className="content"><h1>{this.state.cover.name}</h1></div>
       <Link to='/'><p>Take me back!</p></Link>
-      </>
+      </div>
     );}    
   }
 }
