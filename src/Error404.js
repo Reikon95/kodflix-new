@@ -1,9 +1,11 @@
 import React from 'react';
+import './error404style.css';
 
 export default function NotFound() {
     return (
         <>
-        <h1>NOT FOUND</h1>
+        <h1>This page does not exist!</h1>
         </>
     )
 }
+
