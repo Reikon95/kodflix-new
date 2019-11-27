@@ -25,7 +25,11 @@ export default class Details extends React.Component {
     }
     else {return (
       <div className="Details">
-      <div className="content"><h1>{this.state.cover.name}</h1></div>
+      <div className="content">
+        <h1>{this.state.cover.name}</h1>
+        <p>{this.state.cover.details}</p>
+        <img src={this.state.cover.logo}/>
+      </div>
       <Link to='/'><p>Take me back!</p></Link>
       </div>
     );}    
