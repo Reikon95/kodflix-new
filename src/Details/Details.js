@@ -28,7 +28,7 @@ export default class Details extends React.Component {
       <div className="content">
         <h1>{this.state.cover.name}</h1>
         <p>{this.state.cover.details}</p>
-        <img src={this.state.cover.logo}/>
+        <img src={this.state.cover.logo} alt={this.state.cover.name + ' logo'} />
       </div>
       <Link to='/'><p>Take me back!</p></Link>
       </div>
