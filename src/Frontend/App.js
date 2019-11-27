@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Gallery from './gallery';
-import Details from './Details/Details';
+import Details from './DetailsFolder/Details.js';
 import NotFound from './Error404';
 
 function App() {
