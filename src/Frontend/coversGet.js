@@ -1,5 +1,3 @@
-// import React from 'react';
-// import Media from './Media';
 import got from './Images/GOT.jpg';
 import breakbad from './Images/BreakingBad.jpg';
 import blackmirror from './Images/Black Mirror.png';
