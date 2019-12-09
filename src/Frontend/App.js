@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-
+        Welcome to Kodflix
         <Switch>
           <Route exact path='/' component={Gallery}/>
           <Route exact path='/:details' component={Details}/>
