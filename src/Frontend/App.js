@@ -23,5 +23,3 @@ export default App;
 
 
 
-// button - onclick
-// input - value onChange
