@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Media from './Media';
 import getCovers from './coversGet';
 export default function Covers() {
-
+    const [galImages, setGalImages] = useState('')
     useEffect(() => {
         async function request() {
         const response = await fetch('/rest/shows');
