@@ -19,7 +19,7 @@ export default function Covers() {
         <>
          <div className="container">
           {
-              getCovers().map(cover => (
+              gal.map(cover => (
                   <Media key={cover.id} id={cover.id} name={cover.name} logo={cover.logo} />
               ))
           }
