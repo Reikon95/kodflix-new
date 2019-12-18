@@ -9,7 +9,7 @@ export default function Covers() {
         .then(json => {
             setGal(json)
         })
-    })
+    }, [])
     
    
     console.log(gal)
