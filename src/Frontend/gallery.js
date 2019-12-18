@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Media from './Media';
-import getCovers from './coversGet';
 
 export default function Covers() {
     const [gal, setGal] = useState([]);
@@ -22,14 +21,6 @@ export default function Covers() {
               gal.map(cover => (
                   <Media key={cover.id} id={cover.id} name={cover.name} logo={cover.logo} />
               ))
-          }
-
-        </div>
-        <div className="container">
-          {
-            //   getCovers().map(cover => (
-            //       <Media key={cover.id} id={cover.id} name={cover.name} logo={cover.logo} />
-            //   ))
           }
 
         </div>
